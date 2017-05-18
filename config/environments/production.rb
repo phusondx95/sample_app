@@ -72,11 +72,11 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {  
     address: "smtp.gmail.com",
     port: 587,
-    domain: "murmuring-crag-28208.herokuapp.com",
+    domain: "gmail.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV["GMAIL_USERNAME"],
-    password: ENV["GMAIL_PASSWORD"]
+    user_name: ENV["frankvanphu@gmail.com"],
+    password: ENV["Phuson15395"]
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
